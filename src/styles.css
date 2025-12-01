@@ -1,0 +1,55 @@
+/* High contrast mode */
+.high-contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.high-contrast a {
+  color: #3390ff !important;
+  text-decoration: underline !important;
+}
+
+/* Dyslexia-friendly font */
+.dyslexia-mode {
+  font-family: "Comic Sans MS", "OpenDyslexic", sans-serif !important;
+  line-height: 1.8 !important;
+  word-spacing: 2px !important;
+}
+.dyslexia-mode .first-half-text {
+  font-weight: bold !important;
+  background-color: transparent !important;
+}
+
+/* Keyboard focus outline */
+:focus {
+  outline: 3px solid #500000 !important;
+  outline-offset: 2px !important;
+}
+
+/* Text scaling */
+input, textarea, select, button {
+  font-size: inherit !important;
+}
+
+/* Color-blindness filters */
+html.color-blind-protanopia,
+body.color-blind-protanopia {
+  filter: url(#protanopia-filter) !important;
+}
+html.color-blind-deuteranopia,
+body.color-blind-deuteranopia {
+  filter: url(#deuteranopia-filter) !important;
+}
+html.color-blind-tritanopia,
+body.color-blind-tritanopia {
+  filter: url(#tritanopia-filter) !important;
+}
+
+/* Highlight for line-focus */
+.focused-line {
+  background-color: rgba(255, 255, 0, 0.3) !important;
+}
+
+/* Wikipedia focus mode elements */
+.wiki-focus-hidden {
+  display: none !important;
+}
