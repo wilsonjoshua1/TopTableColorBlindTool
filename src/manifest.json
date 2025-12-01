@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Universal Accessibility Enhancer",
+  "name": "TopTable Accessibility Tool",
   "version": "1.0",
   "description": "Accessibility tools for any website",
   "content_scripts": [{
